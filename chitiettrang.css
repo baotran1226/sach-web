@@ -1,0 +1,28 @@
+main
+{
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+    
+}
+.vien
+{
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.vien img{
+    width: 150px;
+    height: 200px;
+    transform: translate(25px,5px);
+}
+
+.text
+{
+    text-align: center;
+    line-height: 25px;
+}

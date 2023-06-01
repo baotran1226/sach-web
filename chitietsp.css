@@ -1,0 +1,335 @@
+.sp_ct
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+
+main
+{
+    height: 1600px;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 20px;
+}
+
+.img img
+{
+    width: 50%;
+    height: 30%;
+    margin: 5px 50px;
+    box-shadow: 5px 2px 5px rgb(220, 217, 217);
+}
+
+.img img:hover{
+    border: 2px solid orange;
+}
+
+.lienhe ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.lienhe ul
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.lienhe ul li a i
+{
+      margin-left: 15px;
+}
+
+.sl_danhgia
+{
+    float: left;
+}
+.account
+{
+    width: 90px;
+    height: 30px;
+    border: 1px solid #ac28f4;
+    margin: 0 19px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.giamgia
+{
+    display: flex;
+    
+}
+.now
+{
+    width: 230px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.now img
+{
+    width: 45px;
+    height: 20px;
+}
+.vanchuyen
+{
+    display: flex;
+}
+.vanchuyen .fast
+{
+    margin-left: 10px;
+}
+.tang_giam button
+{
+    background: none;
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid grey;
+}
+.tang_giam button:hover
+{
+    background-color: aliceblue;
+}
+.tang_giam {
+    width: 100px;
+}
+.mua {
+    margin-top: 20px;
+}
+.mua > button {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(77, 178, 236);
+   
+    color: white;
+    border: none;
+    /* box-shadow: 2px 2px 5px grey; */
+    border-radius: 10px;
+}
+.mua > button:focus
+{
+    width: 290px;
+    font-size: 15px;
+}
+.thongtin_shop
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px ;
+    border: 0.4px solid rgb(222, 215, 215);
+}
+.thongtin_shop .logo {
+    display: flex;
+}
+.danhgia_shop
+{
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+.danhgia_shop h3
+{
+    margin: 0;
+}
+/* .xem_shop
+{
+    border: 1px solid black;
+} */
+.shop
+{
+    display: flex;
+    grid-column: 1 / -1;
+    justify-content: center;
+}
+.theodoi {
+    text-align: center;
+}
+.danhgia_sao{
+    width: 150px;
+}
+.ve {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xem_shop {
+    margin-left: -10px;
+}
+
+.ct_sp_sach
+{
+    border: 0.5px solid rgb(235, 235, 235);
+    margin-left: 45px;
+
+}
+.ct_sp_sach table tr th
+{
+    text-align: left;
+    line-height: 30px;
+    padding: 5px 0;
+    
+    
+}
+.ct_sp_sach table 
+{
+    margin: 0;
+    width: 480px;
+    background-color: rgb(216, 216, 216);
+}
+.ct_sp_sach table tr td
+{
+    background-color: white;
+    padding-left:10px ;
+}
+
+.mota
+{
+    width: 920px;
+    grid-column: 2/span 2;
+    grid-row: 2;
+    border: 0.5px solid rgb(233, 233, 233);
+    margin: 0 15px ;
+}
+.mota p
+{
+    margin: 25px 5px;
+    padding: 0;
+}
+.kh_danhgia
+{
+    grid-column: 1/ span 3;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.tile_dg
+{
+    margin-left: 45px;
+}
+.nx
+{
+    display: flex;
+}
+.nx .star 
+{
+
+    margin-top: 16px;
+    margin-left: 5px;
+}
+.nx .star i
+{
+    font-size: 20px;
+}
+.sl_dg .star i
+{
+    font-size: small;
+    margin-left: -2px;
+}
+.sl_dg
+{
+    display: flex;
+    justify-content: center;
+}
+.tong_dg{
+    margin: 5px 7px;
+    width: 200px;
+    height: 7px;
+    background-color: rgb(222, 220, 220);
+   
+    border-radius: 10px;
+}
+.sl_dg {
+    display: flex;
+}
+.tile{
+    width: 150px;
+    height: 7px;
+    background-color: rgb(119, 118, 118);
+    border-radius: 10px;
+}
+.img_dg
+{
+    display: flex;
+    justify-content: center;
+}
+.img_dg img
+{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(221, 219, 219);
+    margin-left: 5px;
+    
+}
+
+.loc_sp_dg ul{
+    display: flex;
+}
+.loc_sp_dg ul li
+{
+    list-style: none;
+    width: 120px;
+    height: 20px;
+    background-color: rgb(215, 217, 219);
+    padding: 5px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hinhanh_dg
+{
+    width: 950px;
+    border: 1px solid rgb(235, 235, 235);
+    margin-left: 55px;
+}
+.profile,.tile_dg p
+{
+    display: flex;
+    justify-content: center;
+}
+.dg .star i{
+    font-size: 20px;
+   
+}
+.dg
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 7% 85%;
+    width: 950px;
+    border: 1px solid rgb(235, 235, 235);
+    margin-left: 55px;
+}
+.damua
+{
+    width: 950px;
+    
+}
+.phanhoi
+{
+    margin-left: 80px;
+}
+.phanhoi button
+{
+    width: 120px;
+    height: 30px;
+    margin-right: 20px;
+    background: none;
+    color: #0b82e2;
+    border: 2px solid #0b82e2;
+
+}

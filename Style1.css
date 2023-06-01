@@ -1,0 +1,23 @@
+#Khung {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.DK {
+    background-color: blueviolet;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon-input {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px;
+}

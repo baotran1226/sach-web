@@ -1,0 +1,115 @@
+body
+{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    background-image: url(./img/background-2d-dep-cho-photoshop_63710488652.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+}
+.content
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    margin-left: -60px;
+    grid-template-columns: 30% 30% 10% ;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.profile
+{
+    
+    width: 250px;
+    height: 400px;
+    background-color: rgba(240, 246, 246, 0.204);
+    display: grid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(73, 201, 150);
+    grid-template-rows: 40% 30% 10% 20%;
+    
+}.profile ul
+{
+   list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 25px;
+}
+.profile ul li i
+{
+    padding: 7px;
+    background-color: #ffffff;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+header h1 {
+    color: white; 
+    text-align: center; 
+    margin-top: 60px; 
+    font-size: 45px;
+}
+.profile img
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 20px 60px;
+    border: 4.5px solid rgba(255, 255, 255, 0.564);
+}
+@media screen and (max-width: 767px) {
+
+    body {
+        background:rgb(255, 255, 255);
+        background-image: none;
+        display: grid;
+        grid-template-rows: 25% 60% 10%;
+    }
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 15px;
+        gap: 20px;
+    }
+    header h1{
+        color: black;
+    }
+    .profile {
+        width: 90%;
+        height: 120px;
+        background-color: white;
+        box-shadow: 5px 5px 15px grey;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 70% 30%;
+    }
+    p{
+        color: black;
+    }
+    .profile img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 5px;
+        border: 4px solid gray;
+    }
+    .profile ul{
+        margin-left: 150px;
+        margin-top: -5px;
+        grid-row-start: 2;
+        grid-column-end: 2;
+    }
+   
+    .profile ul li a i{
+        margin-left: 1px;
+        justify-content: end;
+        background-color: #cccaca;
+    }
+}

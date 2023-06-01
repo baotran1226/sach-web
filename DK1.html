@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DangKy</title>
+    <link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+
+<body>
+    <form action="" method="POST" onsubmit="return Kiemtradulieu()">
+        <div class="register">
+            <h1>Sign up</h1>
+            <p>Please fill in the information to sign up</p>
+            <hr>
+            <label username><b>User name</b></label>
+            <input type="text" placeholder="Họ và tên" name="username" id="username">
+            <span id="usernameError"></span>
+            <label password><b>Password</b></label>
+            <input type="password" placeholder="******" name="password" id="password">
+            <span id="passwordError"></span>
+            <label for="password-repeat"><b>Repeat the password</b></label>
+            <input type="password" placeholder="******" name="password-repeat" id="password-repeat">
+            <span id="RepasswordError"></span>
+            <hr>
+            <p>Để tạo tài khoản vui lòng đồng ý với điều khoản của chúng tôi <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="submit" onclick="Kiemtradulieu">Sign up</button>
+        </div>
+        <div class="register login">
+            <p>Bạn đã có tài khoản rồi? <a href="Login.html">Đăng nhập</a></p>
+        </div>
+    </form>
+
+    <script>
+        function Kiemtradulieu() {
+            var flag = true;
+            var u = document.getElementById("username").value.trim();
+            var p1 = document.getElementById("password").value.trim();
+            var p2 = document.getElementById("password-repeat").value.trim();
+
+            if (u == "" || u.length < 10) {
+                flag = false;
+                document.getElementById("usernameError").innerHTML = "Vui lòng kiểm tra lại tên"
+            }
+            if (p1 == "" || p1.length < 10) {
+                flag = false;
+                document.getElementById("passwordError").innerHTML = "Vui lòng kiểm tra lại pass"
+            }
+            if (p2 == "" || p2 != p1) {
+                flag = false;
+                document.getElementById("RepasswordError").innerHTML = "Vui lòng kiểm tra lại Repass"
+            }
+        }
+    </script>
+
+</body>
